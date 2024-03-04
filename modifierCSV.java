@@ -12,14 +12,14 @@ public class modifierCSV {
 
     public static void main(String[] args) {
         // Spécifiez le chemin du fichier d'entrée et de sortie
-        String fichierEntree = "Lol_matchs.csv";
-        String fichierSortie = "test.csv";
+        String fichierEntree = "csv/Lol_matchs.csv";
+        String fichierSortie = "csv/test.csv";
 
         // Modifier la première ligne du fichier CSV
-        modifierPremiereLigne(fichierEntree, fichierSortie);
+        modifierCSV(fichierEntree, fichierSortie);
     }
 
-    public static void modifierPremiereLigne(String fichierEntree, String fichierSortie) {
+    public static void modifierCSV(String fichierEntree, String fichierSortie) {
         try (BufferedReader br = new BufferedReader(new FileReader(fichierEntree));
              BufferedWriter bw = new BufferedWriter(new FileWriter(fichierSortie))) {
 
