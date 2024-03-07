@@ -12,8 +12,8 @@ public class modifier2CSV {
 
     public static void main(String[] args) {
         // Spécifiez le chemin du fichier d'entrée et de sortie
-        String fichierEntree = "csv/test.csv";
-        String fichierSortie = "csv/bdd.csv";
+        String fichierEntree = "CSV/test.csv";
+        String fichierSortie = "CSV/bdd.csv";
 
         try (BufferedReader br = new BufferedReader(new FileReader(fichierEntree));
              BufferedWriter bw = new BufferedWriter(new FileWriter(fichierSortie))) {

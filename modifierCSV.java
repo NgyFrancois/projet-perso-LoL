@@ -12,8 +12,8 @@ public class modifierCSV {
 
     public static void main(String[] args) {
         // Spécifiez le chemin du fichier d'entrée et de sortie
-        String fichierEntree = "csv/Lol_matchs.csv";
-        String fichierSortie = "csv/test.csv";
+        String fichierEntree = "CSV/Lol_matchs.csv";
+        String fichierSortie = "CSV/test.csv";
 
         // Modifier la première ligne du fichier CSV
         modifierCSV(fichierEntree, fichierSortie);
